@@ -1,0 +1,26 @@
+* {
+	padding :0;
+	margin: 0;
+}
+body {
+	transition: 0.15s;
+}
+button {
+	font-size: 24pt;
+	padding: 10px 25px;
+	border: 2px solid black;
+	transition: 0.15s;
+	margin: 15px;
+}
+button:hover {
+	background-color: yellow;
+}
+.red {
+	background-color: red;
+}
+.green {
+	background-color: limegreen;
+}
+.blue {
+	background-color: blue;
+}

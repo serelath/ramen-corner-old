@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    background-color: black;
+    width: 31.8vh;
+    height: 31.8vh;
+    margin: 34.05vh auto 0 auto;
+}
+section {
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+article {
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+.yellow {
+    background-color: #E3CF00;
+    transition: 0.8s;
+}
+.blue {
+    background-color: #43B7AC;
+    transition: 0.8s;
+}
+.purple {
+    background-color: #272240;
+    transition: 0.8s;
+}
+.red {
+    background-color: #EC2A45;
+    transition: 0.8s;
+}
+section:hover {
+    filter: brightness(200%);
+    transition: 0s;
+}
+section#box:hover {
+    filter: none;
+}
+article:hover {
+    filter: brightness(200%);
+    transition: 0s;
+}
+section.blue:hover, article.blue:hover, article.yellow:hover, section.yellow:hover {
+    filter: brightness(125%);
+    transition: 0s;
+}

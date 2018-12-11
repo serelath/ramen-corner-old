@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #00cd99;
+}
+button {
+	font-size: 54pt;
+	display: none;
+	float: left;
+	margin: 8px;
+}
+#one {
+	display: block
+}

@@ -1,0 +1,38 @@
+/* CSS RESET */
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Arial";
+    }
+
+figure {
+    height: 50vh;
+    width: 32vw;
+    position: fixed;
+}
+figure:first-child {
+    background-color: lightpink;
+}
+figure:nth-child(2) {
+    background-color: lightblue;
+}
+figure:nth-child(3) {
+    background-color: lightgoldenrodyellow;
+}
+figure:nth-child(4) {
+    width: 20vw;
+    padding: 2vw;
+}
+figure:nth-child(5) {
+    width: 20vw;
+    padding: 2vw;
+}
+li {
+    margin-top: 0.5vw;
+    font-size: 1.25vw;
+}
+p {
+    letter-spacing: 0.2vw;
+    font-size: 1.25vw;
+}

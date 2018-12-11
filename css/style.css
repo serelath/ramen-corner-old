@@ -1,0 +1,133 @@
+#wrapper {
+    width: 65%;
+    padding-top: 5%;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    color: #212020;
+}
+h2 {
+    font-family: 'Indie Flower', cursive !important;
+    font-size: 36px;
+    margin: 25px 0;
+    color: #212020;
+}
+.green {
+    color: #57BAA1;
+}
+.highlight {
+    color: #57BAA1;
+}
+.green-border {
+    border: 1px solid #57BAA1 !important;
+}
+.underline {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #212020;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.2s;
+    padding: 10px;
+}
+a#head {
+    padding: 0;
+}
+a:hover {
+    color: #57BAA1;
+    transition: all 0.2s;
+}
+p {
+    color: #212020;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+}
+ul {
+    padding-bottom: 5px;
+    width: 75%;
+    margin: auto;
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+.button {
+    border: 1px solid #212020;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 0;
+    display: inline-block;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 3px 1px;
+}
+.button a {
+    padding: 15px 25px;
+}
+.button:hover a {
+    color: #57BAA1;
+    transition: all 0.2s;
+}
+.button:hover {
+    border-color: #212020;
+    transition: all 0.2s;
+    background-color: #212020;
+}
+#sheep {
+    margin: 25px 0;
+    width: 25%;
+}
+img {
+    width: 90%;
+}
+.ramen-site, .link-site{
+    border: 1px dashed #212020;
+    padding: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 0.2s;
+}
+.ramen-site:hover, .link-site:hover {
+    filter: brightness(95%);
+    transition: 0.2s;
+}
+.story {
+    font-size: 18px;
+    transition: all 0.2s;
+    padding: 10px;
+}
+.story:hover {
+    color: #212020;
+    transition: all 0.2s;
+}
+footer {
+    position: relative;
+    top:100px;
+    margin: auto;
+}
+footer p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+@media screen and (max-width: 960px) {
+    #wrapper {
+        width: 70%;
+    }
+    #sheep {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
+    .ramen-site {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

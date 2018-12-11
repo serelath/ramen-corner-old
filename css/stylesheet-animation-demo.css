@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+}
+
+section {
+	width: 12.35vw;
+	height: 100vw;
+	float: left;
+	background-color: #B272BF;
+	animation: fadeIn 0.5s backwards;
+		-webkit-animation: fadeIn 0.5s backwards;
+		-moz-animation: fadeIn 0.5s backwards;
+		-ms-animation: fadeIn 0.5s backwards;
+		-o-animation: fadeIn 0.5s backwards;
+
+}
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.red {
+	background-color: #FF644C;
+}
+.orange {
+	background-color: #FFA24C;
+	animation-delay: 0.5s;
+}
+.yellow {
+	background-color: #FFCD51;
+	animation-delay: 1s;
+}
+.green {
+	background-color: #B9D8C2;
+	animation-delay: 1.5s;
+}
+.cyan {
+	background-color: #9AC2C9;
+	animation-delay: 2s;
+}
+.blue {
+	background-color: #91A2C1;
+	animation-delay: 2.5s;
+}
+.purple {
+	background-color: #9285C1;
+	animation-delay: 3s;
+}
+.magenta {
+	background-color: #B272BF;
+	animation-delay: 3.5s;
+}

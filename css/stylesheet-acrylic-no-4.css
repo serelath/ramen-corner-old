@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    background-color: red;
+    margin: 15.7vw auto 0 auto;
+    width: 45.05vw;
+    height: 36.7vw;
+}
+section {
+    display: inline-block;
+    float: left;
+    height: 100%;
+}
+article {
+    width: 100%;
+}
+figcaption {
+    width: 100%;
+}
+/* section one */
+.one {
+    width: 16.8%;
+}
+.one:hover .black {
+    background-color: white;
+}
+.one-one {
+    height: 97.1%;
+}
+.band-bot {
+    height: 2.9%;
+}
+/* section two */
+.two {
+    width: 6.5%;
+}
+.top-mid {
+    height: 50.7%;
+}
+.mid-mid {
+    height: 34.6%;
+}
+.band-mid {
+    height: 3%;
+}
+.no-band-bot {
+    height: 11.7%;
+}
+/* section three */
+.three {
+    width: 15.7%;
+    background-color: #413E47;
+    transition: 2s;
+}
+.three:hover {
+    background-color: white;
+    transition: 0s;
+}
+.cutup {
+    width: 46.3%;
+    height: 85.3%;
+    display: inline-block;
+}
+.cutup-top {
+    height: 59.3%;
+}
+.cutup-mid {
+    height: 40.7%;
+}
+.cutup-right {
+    float: right;
+    height: 83.5%;
+}
+.cutup-right .top, .cutup-left .top {
+    height: 60.5%;
+}
+.cutup-right .mid, .cutup-left .mid {
+    height: 39.5%;
+}
+.red-bot {
+    height: 8.7%;
+}
+.weird-space {
+    margin-top: -3.2%;
+}
+/* section four */
+.four {
+    width: 22%;
+}
+.band-over-mid {
+    height: 1.9%;
+}
+.cutup-left {
+    float: left;
+    height: 83.5%;
+}
+.cutup-left-right {
+    float: right;
+}
+.align-right {
+    margin-left: 7.1%;
+}
+.shorten {
+    height: 32.7%;
+}
+/* colors */
+.light-red {
+    background-color: #906672;
+    transition: 2s;
+}
+.light-red:hover {
+    filter: hue-rotate(180deg) brightness(125%);
+    transition: 0s;
+}
+.black {
+    background-color: #0E0E0E;
+    transition: 1s;
+}
+.black:hover {
+    background-color: white;
+    transition: 0s;
+}
+.dark-grey {
+    background-color: #252429;
+    transition: 2s;
+}
+.dark-grey:hover {
+    background-color: white;
+    transition: 0s;
+}
+.wine-red {
+    background-color: #561227;
+    transition: 2s;
+}
+.wine-red:hover {
+    filter: hue-rotate(-180deg) brightness(125%);
+    transition: 0s;
+}
+.grey {
+    background-color: #3A323D;
+    transition: 2s;
+}
+.grey:hover {
+    filter: hue-rotate(180deg) brightness(125%);
+    transition: 0s;
+}
+.blue {
+    background-color: #4C6081;
+    transition: 2s;
+}
+.blue:hover {
+    filter: hue-rotate(180deg) brightness(125%);
+    transition: 0s;
+}
+.blood-red {
+    background-color: #B1012F;
+    transition: 2s;
+}
+.blood-red:hover {
+    filter: hue-rotate(-90deg) brightness(125%);
+    transition: 0s;
+}
+.carpet-red {
+    background-color: #900035;
+    transition: 2s;
+}
+.carpet-red:hover {
+    filter: hue-rotate(180deg) brightness(125%);
+    transition: 0s;
+}
+.pink-red {
+    background-color: #BE3553;
+    transition: 2s;
+}
+.pink-red:hover {
+    filter: hue-rotate(-90deg) brightness(125%);
+    transition: 0s;
+}

@@ -1,0 +1,57 @@
+/* CSS RESET */
+* {
+	margin: 0;
+	padding: 0;
+}
+section {
+	width: 100vw;
+	height: 100vw;
+}
+nav {
+	position: fixed;
+	top: 15vh;
+	right: 5vh;
+}
+nav ol li {
+	list-style-type: none;
+	padding: 5px;
+}
+html,body {
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	color: black;
+	transition: 0.5s;
+	text-shadow: 1px 1px 1px rgba(256,256,256, 0.5);
+	font-weight: 900;
+}
+a:hover {
+	color: white;
+}
+/* CSS COLORS */
+.red {
+	background-color: red;
+}
+.yellow {
+	background-color: yellow;
+}
+.blue {
+	background-color: blue;
+}
+.indigo {
+	background-color: indigo;
+}
+.orange {
+	background-color: orange;
+}
+.black {
+	background-color: black;
+}
+.pink {
+	background-color: pink;
+}
+.purple {
+	background-color: purple;
+}

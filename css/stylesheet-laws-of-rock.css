@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+figure#canvas {
+	width: 47vw;
+	height: 31.3vw;
+	margin: 18.5vw auto 0 auto;
+}
+body {
+    background-color: black;
+}
+section {
+	width: calc(100%/6);
+	height: 100%;
+	float: left;
+}
+article {
+	width: 59%;
+	height: 80.2%;
+	margin: 41% auto 0 auto;
+}
+figcaption {
+	margin: 6.5% 3%;
+	width: 17%;
+	height: 97.5%;
+	float: left;
+}
+figcaption.left {
+    margin-left: 7.5%;
+}
+figcaption.right {
+    margin-right: 5%;
+}
+.yellow {
+	background-color: #F7FF37;
+    transition: 0.5s;
+}
+.yellow:hover {
+    background-color: #8D4C8C;
+    transition: 0s;
+}
+.black {
+	background-color: #2C2E2D;
+    transition: 0.5s;
+}
+.black:hover {
+    background-color: #FFE9F3;
+    transition: 0s;
+}
+.red {
+	background-color: #FE5359;
+    transition: 0.5s;
+}
+.red:hover {
+    background-color: #B9D7FD;
+    transition: 0s;
+}
+.green {
+	background-color: #16D85B;
+    transition: 0.5s;
+}
+.green:hover {
+    background-color: #FD9E20;
+    transition: 0s;
+}
+.purple {
+	background-color: #8D4C8C;
+    transition: 0.5s;
+}
+.purple:hover {
+    background-color: #F7FF37;
+    transition: 0s;
+}
+.cyan {
+	background-color: #B9D7FD;
+    transition: 0.5s;
+}
+.cyan:hover {
+    background-color: #FF6585;
+    transition: 0s;
+}
+.teal {
+    background-color: #03B5A7;
+    transition: 0.5s;
+}
+.teal:hover {
+    background-color: #FE5359;
+    transition: 0s;
+}
+.light-purple {
+    background-color: #9678D8;
+    transition: 0.5s;
+}
+.light-purple:hover {
+    background-color: #16D85B;
+    transition: 0s;
+}
+.blue {
+    background-color: #1E38A7;
+    transition: 0.5s;
+}
+.blue:hover {
+    background-color: #03B5A7;
+    transition: 0s;
+}
+.orange {
+    background-color: #FD9E20;
+    transition: 0.5s;
+}
+.orange:hover {
+    background-color: #F7FF37;
+    transition: 0s;
+}
+.pink {
+    background-color: #FF6585;
+    transition: 0.5s;
+}
+.pink:hover {
+    background-color: #B9D7FD;
+    transition: 0s;
+}
+.white {
+    background-color: #FFE9F3;
+    transition: 0.5s;
+}
+.white:hover {
+    background-color: #9678D8;
+    transition: 0s;
+}

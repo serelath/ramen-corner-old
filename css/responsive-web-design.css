@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 2vw;
+}
+
+h1 {
+    text-align: center;
+    padding: 3vw 0;
+}
+article {
+    margin: 3vw; 
+}
+
+/* HERE ARE MY MOBILE STYLES */
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightpink;
+    }
+    article {
+        column-count: 1;
+    }
+    h1 {
+        font-size: 6vw;
+        font-family: arial;
+    }
+}
+
+/* HERE ARE MY TABLET STYLES */
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+    article {
+        column-count: 2;
+    }
+    figure#sushi {
+        width: 100vw;
+        height: 20vw;
+        margin: auto;
+        background-image: url("../images/sushi.png");
+        background-size: cover;
+    }
+    h1 {
+        font-size: 7vw;
+        font-family: georgia;
+    }
+}
+
+/* HERE ARE MY DESKTOP STYLE */
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: limegreen;
+    }
+    article {
+        column-count: 3;
+    }
+    h1 {
+        font-size: 8vw;
+        font-family: verdana;
+    }
+}

@@ -1,0 +1,43 @@
+/* CSS RESET */
+* {
+	font-family: "Comic Sans MS";
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body {
+	background-color: pink;
+	margin: 0;
+}
+div {
+	width: 350px;
+	margin: 15px auto 30px auto;
+	padding: 20px;
+	border: 5px dashed white;
+	background-color: lightblue;
+	transition: 0.5s;
+}
+#div-one {
+	background-color: lightblue;
+}
+#div-two {
+	background-color: khaki;
+}
+#div-three {
+	background-color: lightgreen;
+}
+.reusable {
+	font-family: arial;
+	transition: 0.5s ease-out;
+}
+.tissue {
+	font-size: 18px;
+}
+div:hover {
+	transform: scale(1.3) translateY(125px);
+	transition: 0.5s;
+}
+.reusable:hover {
+	transform: rotate(15deg) translateY(-30px);
+	transition: 0.5s ease-in;
+}

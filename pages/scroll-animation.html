@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <title>JavaScript Skrollr Scroll Animation</title>
+        <meta charset="utf-8">
+        <!-- STUFF -->
+        <link href="../css/scroll-animation.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <figure data-0="background-color:rgba(0,0,255,0.5); left: 0vw" data-1000="background-color:rgba(255,0,0, 0.5); left: 60vw"></figure>
+        <figure data-0="background-color:rgba(0,0,255,0.5); left: 0vw;" data-750="background-color:rgba(255,0,0, 0.5); left: 70vw;"></figure>
+        <figure data-0="background-color:rgba(0,0,255,0.5); left: 0vw;" data-500="background-color:rgba(255,0,0, 0.5); left: 75vw"></figure>
+        <figure data-0="left: -20vw;" data-1000="left: 37.5vw">
+            <p>BAD</p>
+            <ul>
+                <li>Hide more food items</li>
+                <li>More hierarchy in type</li>
+                <li>Bigger type</li>
+                <li>Try fixed "Order Here"</li>
+                <li>Continue ripped nav</li>
+                <li>Place prices on detail hover</li>
+                <li>Food drop shadows</li>
+                <li>Nav is hard to see</li>
+                <li>Home image blurry</li>
+                <li>Bigger logo</li>
+                <li>Bigger text on mobile</li>
+            </ul>
+        </figure>
+        <figure data-0="left: -20vw;" data-1250="left: 17.5vw">
+            <p>GOOD</p>
+            <ul>
+                <li>Nice layout, wood table</li>
+                <li>Brush strokes</li>
+                <li>Call to action</li>
+                <li>Good pictures</li>
+                <li>Good flow</li>
+            </ul>
+        </figure>
+        
+        <!-- SKROLLR -->
+        <script src="../js/skrollr-master/src/skrollr.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
+    </body>
+</html>

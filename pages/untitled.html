@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shirley's Art Forgery</title>
+    <link rel="stylesheet" href="../css/untitled.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        
+        $(document).ready(function(){ 
+            $('#circle').click(function(){
+                $('.one').addClass('slide-one');
+                $('.two').addClass('slide-two');
+                $('.three').addClass('slide-three');
+                $('#circle').addClass('drop');
+                
+                setTimeout(function() {
+                    $('.one').removeClass('slide-one');
+                    $('.two').removeClass('slide-two');
+                    $('.three').removeClass('slide-three');
+                    $('#circle').removeClass('drop');}, 5000);
+            });
+        });
+        
+    </script>
+
+</head>
+<body>
+        
+        <main>
+        
+            <figure>
+                <section class="left top">
+                    <article id="circle"></article>
+                </section>
+                <section class="right top right-top">
+                    <article></article>
+                    <article></article>
+                    <article></article>
+                    <article></article>
+                </section>
+                <div class="clear"></div>
+                <section class="left bottom left-bottom">
+                    <article class="one"></article>
+                    <article class="two"></article>
+                    <article class="three"></article>
+                    <article class="four"></article>
+                </section>
+                <section class="right bottom right-bottom">
+                    <article></article>
+                    <article></article>
+                    <article></article>
+                    <article></article>
+                </section>
+            </figure>
+            
+        </main>
+  
+</body>
+</html>
